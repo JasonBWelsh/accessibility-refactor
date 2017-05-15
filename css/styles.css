@@ -51,6 +51,11 @@ a:hover {
   letter-spacing: 5px;
 }
 
+
+header .name{
+  font-size: 3em;
+}
+
 .nav li {
   padding: 5px 10px 10px 10px;
 }
@@ -65,7 +70,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('../img/concert02_with_text.jpg') no-repeat top center ;
+  background: url('../img/concert02_no_text.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -74,6 +79,38 @@ header {
   /*filter: saturate(9);*/
   filter: invert(.9);
 }
+
+.banner-text {  /* header filter makes all colors in header different (almost opposite) */
+  padding: 10px 15px;
+  margin-top: 3em;
+  background: rgba(240,240,240,.9);
+}
+
+.main-heading,
+.tagline {
+  letter-spacing: 1px;
+}
+
+.main-heading {
+  font-size: 2rem;
+  color: #121212;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.tagline {
+  font-size: 1.15rem;
+  text-transform: lowercase;
+  font-weight: 600;
+  /*padding: 20px;*/
+  color: #F64747;
+  /*background: rgba(200,200,200,.6);*/
+
+}
+
+
+
+
 
 .tag {
   color: black;
@@ -90,15 +127,7 @@ header {
   color: #FF00FF;
 }
 
-header .name{
-  font-size: 3em;
-}
-.tagline {
-  font-weight: 600;
-  padding: 20px;
-  text-transform: uppercase;
-  color: #F64747;
-}
+
 
 .card {
   margin: 30px;
@@ -126,9 +155,10 @@ header .name{
   position: absolute;*/
 }
 
-.heading{
+.heading {
   font-size: 2em;
   text-transform: uppercase;
+  font-weight: normal;
   color: #7FFFD4;
   margin-top: 10px;
 }
@@ -155,6 +185,7 @@ footer ul {
 footer ul li {
   display: inline-block;
 }
+
 
 a.social {
   display: inline-block;
