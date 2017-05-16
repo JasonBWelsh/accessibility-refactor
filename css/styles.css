@@ -257,7 +257,7 @@ a.social:focus {
 .social-svg:hover,
 .social-svg:focus {
   opacity: 1;
-  transform: scale(1.5) rotate(-8deg);
+  transform: scale(1.3) rotate(-8deg);
 }
 
 .social-link-desc {
