@@ -70,20 +70,20 @@ header .name{
 
 header {
   text-align: center;
-  background: url('../img/concert02_no_text.jpg') no-repeat top center ;
+  background: url('../img/concert02_no_text_filter2.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
   height: 350px;
   /*filter: hue-rotate(280deg) saturate(9);*/
   /*filter: saturate(9);*/
-  filter: invert(.9);
+  /*filter: invert(.9);*/
 }
 
 .banner-text {  /* header filter makes all colors in header different (almost opposite) */
   padding: 10px 15px;
   margin-top: 3em;
-  background: rgba(240,240,240,.9);
+  background: rgba(39,0,85,.6);
 }
 
 .main-heading,
@@ -93,17 +93,20 @@ header {
 
 .main-heading {
   font-size: 2rem;
-  color: #121212;
+  color: #00BFFF;
   text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 1px;
   margin: 0;
 }
 
 .tagline {
   font-size: 1.15rem;
   text-transform: lowercase;
-  font-weight: 600;
-  /*padding: 20px;*/
-  color: #F64747;
+  font-weight: lighter;
+  /*padding: 20p
+  x;*/
+  color: #7FFFD4;
   /*background: rgba(200,200,200,.6);*/
 
 }
