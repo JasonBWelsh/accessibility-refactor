@@ -261,7 +261,6 @@ a.social:focus {
     display: flex;
     max-width: 1200px;
     -ms-flex-pack: distribute;
-    flex-direction: column;
   }
 
   .container { /*holds form */
@@ -272,8 +271,8 @@ a.social:focus {
   .photo {
     flex: 1;
     /*margin-top: 50vh;*/
-    /*width: 30%;*/
-    /*margin: 20px 30px;*/
+    width: 30%;
+    margin: 20px 30px;
   }
 
   .main-header {
