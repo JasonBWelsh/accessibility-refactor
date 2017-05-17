@@ -29,53 +29,77 @@
     </header>
 
     <main>
-      <h2 class= "heading">Survey</h2>
-      <div class="card">
+      
         <div class="flex">
           <img class="photo" src= "img/concert01.jpg" alt="Image of crowd with hands raised watching a band perform">
           <div class="container">
-            <form class = "survey">
-              <p>Who is your favorite band member:</p>
-              <input type="radio" name="res" value="John"> John
-              <input type="radio" name="res" value="Hazzard"> Hazzard
-              <input type="radio" name="res" value="Bob"> Bob
-              <input type="radio" name="res" value="Sally"> Sally
 
-              <p>What is your favorite album:</p>
-              <select id="albums" name="select">
-                <option value="1">Party For An Angel</option>
-                <option value="2">A Day Of Old</option>
-                <option value="3">Finding My Shadow</option>
-                <option value="4">Diamond Fireworks</option>
-                <option value="5">Enjoy Your Desire</option>
-                <option value="6">This Is For You</option>
-                <option value="7">Music Of My Life</option>
-                <option value="8">Song For Yesterday</option>
-                <option value="9">Heroic Forever</option>
-                <option value="10">Midnight Fires</option>
-                <option value="11">Street Of The Rider</option>
-              </select>
+            <form class = "survey" action="index.html" method="post">
 
-              <p>What is your favorite song:</p>
-              <textarea></textarea>
+              <fieldset class="survey-fieldset">
+
+                <legend><span class="number">1</span>Survey Questions</legend>
+
+                <label>Who is your favorite band member:</label>
+
+                <input type="radio" id="crichton" name="res" value="John">
+                  <label for="crichton" class="light">Crichton</label>
+                  <br>
+                <input type="radio" id="harvey" name="res" value="Hazzard">
+                  <label for="harvey" class="light">Harvey</label>
+                  <br> 
+                <input type="radio" id="1812" name="res" value="Bob">
+                  <label for="1812" class="light">1812</label>
+                  <br>
+                <input type="radio" id="rygel" name="res" value="Sally">
+                  <label for="rygel" class="light">Dominar Rygel XVI</label>
+                  <br>
+
+                <label for="albums">What is your favorite album:</label>
+                <select id="albums" name="select">
+                  <option value="1">Crackers Don't Matter</option>
+                  <option value="2">Harvey on the Brain</option>
+                  <option value="3">The Pilot Percussion Sessions</option>
+                  <option value="4">Don't Be So Blue, Zhaan</option>
+                  <option value="5">DRDs Everywhere!</option>
+                  <option value="6">Is That a Skeksi or a Halojian?</option>
+                  <option value="7">Chinanna Had the Draddest Time</option>
+                  <option value="8">D'Argo's Collar Bones Unchained</option>
+                  <option value="9">Leave Me Alone, Scorpius</option>
+                  <option value="10">Party Like a Scarran</option>
+                  <option value="11">Hi There! *BOOM*</option>
+                </select>
+
+                <label for="fav-song">What is your favorite song:</label>
+                <textarea id="fav-song" name="user_song"></textarea>
+
+              </fieldset>
+
+              <fieldset>
+
+                <legend><span class="number">2</span>Newsletter</legend>
+
+                <label for="name">Name:</label>
+                <input type ="text" id="name" name="user_name">
+
+                <label for="mail">Email:</label>
+                <input type ="email" id="mail" name="user_mail">
+
+                <label for="confirm-mail">Confirm Email:</label>
+                <input type ="email" id="confirm-mail" name="user_confirm_mail">
+
+                <button type="submit">Sign Up</button>
+
+              </fieldset>
+
             </form>
           </div>
-        </div>
-      </div>
-      <h2 class= "heading">Newsletter</h2>
-      <div class="card">
-        <div class="flex">
+
           <img class="photo" src= "img/the_band.jpg" alt="Shot of the guitarist and drummer under stage lights">
-            <div class="container">
-              <form class="newsletter">
-                  <p>Name: <input type ="text" name="textfield"></p>
-                  <p>Email: <input type ="email" name="textfield"></p>
-                  <p>Retype Email: <input type ="email" name="textfield"></p>
-                  <button type="submit">Sign Up</button>
-              </form>
-            </div>
+
         </div>
-      </div>
+      
+
     </main>
 
     <footer class="main-footer">
