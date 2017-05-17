@@ -55,7 +55,8 @@ input:focus,
 select:focus,
 textarea:focus {
   background-color: rgba(39,0,85,.2);
-  color: #fff;
+  color: fff;
+  border: 1px solid #fff;
 }
 
 input[type="radio"],
@@ -71,15 +72,15 @@ select {
 
 button {
   padding: 19px 39px 18px 39px;
-  color: #FFF;
-  background-color: #4bc970;
+  color:  #F1F227;
+  background-color: #323232;
   font-size: 18px;
   text-align: center;
   font-style: normal;
   border-radius: 5px;
   width: 100%;
-  border: 1px solid #3ac162;
-  border-width: 1px 1px 3px;
+  border: 1px solid #FF00FF;
+  border-width: 1px;
   box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
   margin-bottom: 10px;
 }
@@ -114,8 +115,8 @@ br ~ label {
 }
 
 .number {
-  background-color: #FF00FF;
-  color: #00BFFF;
+  background-color: #323232;
+  color: #FF00FF;
   height: 30px;
   width: 30px;
   display: inline-block;
