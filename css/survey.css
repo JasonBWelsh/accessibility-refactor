@@ -10,10 +10,12 @@
 
 .photo {
   padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
 }
 
 form {
-  margin: 10px auto;
+  margin: 0 auto;
   text-align: left;
   display: inline-block;
   padding: 10px 20px;
@@ -21,6 +23,11 @@ form {
   border-radius: 8px;
   color: #7FFFD4;
   font-weight: 300;
+}
+
+.form-heading {
+  text-align: center;
+  color: #FF00FF;
 }
 
 input[type="text"],
@@ -37,6 +44,7 @@ textarea,
 select {
   background: rgba(255,255,255,0.1);
   border: none;
+  border-radius: 8px;
   font-size: 16px;
   height: auto;
   margin: 0;
@@ -135,6 +143,7 @@ br ~ label {
   }*/
 
   form {
+
     max-width: 480px;
   }
 }

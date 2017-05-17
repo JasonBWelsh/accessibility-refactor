@@ -248,8 +248,10 @@ a.social:focus {
   transform: scale(1.3) rotate(-8deg);
 }
 
-.social-link-desc {
-  display: none;
+.social-link-desc { /* for getting invisible social icon link text */
+  font-size: 0.01rem;
+  margin: 0;
+  color: transparent;
 }
 
 /* Styles for larger screens */
@@ -261,19 +263,9 @@ a.social:focus {
     display: flex;
     max-width: 1200px;
     -ms-flex-pack: distribute;
+    justify-content: center;
   }
 
-  .container { /*holds form */
-    flex-basis: 3;
-
-  }
-
-  .photo {
-    flex: 1;
-    /*margin-top: 50vh;*/
-    width: 30%;
-    margin: 20px 30px;
-  }
 
   .main-header {
     min-height: 470px;
