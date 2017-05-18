@@ -10,15 +10,15 @@
   </head>
 
   <body>
-    <div class="main-nav">
+    <nav class="main-nav" role="navigation">
       <ul class="nav">
-        <li class="name"><a href="index.html">Accessible Frog</a></li>
-        <li><a href="#">Tour</a></li>
+        <li class="name"><a href="#">Accessible Frog</a></li>
+        <li><a href="tour.html">Tour</a></li>
         <li><a href="survey.html">Survey</a></li>
       </ul>
-    </div>
+    </nav>
 
-    <header class="main-header">
+    <header class="main-header" role="banner">
      <!--  <img class="banner-img" src="img/concert02_no_text_filter2.jpg" alt="A crowd of people at a concert with their hands rasied"> -->
       <section class="banner-text">
         <div class="banner-text-container"><!-- to position text over purple -->
@@ -28,7 +28,7 @@
       </section>
     </header>
 
-    <main >
+    <main role="main">
       <section class="card tour-card">
         <div class="flex">
         <!-- The following images are decorative for this project. -->
@@ -36,99 +36,99 @@
 
           
 
-          <table class="tour-table">
+          <table class="tour-table" role="presentation">
             <caption>
               <img class="pick" src= "img/guitar_pick.png" alt="">
               <h2 class= "heading">Tour Dates</h2>
               <img class="pick" src= "img/guitar_pick.png" alt="">
             </caption>
             <thead>
-              <tr>              
-                <th scope="col">Date</th>
-                <th cope="col">Venue</th>
-                <th cope="col">Location</th>
+              <tr role="row">              
+                <th scope="col" role="columnheader">Date</th>
+                <th cope="col" role="columnheader">Venue</th>
+                <th cope="col" role="columnheader">Location</th>
               </tr>
             </thead>
             <tfoot>
-              <tr>
-                <td colspan="3">Levitation ability may be required to access some venues. Contact your ticket provider for more info</td>
+              <tr role="row">
+                <td colspan="3" role="gridcell">Levitation ability may be required to access some venues. Contact your ticket provider for more info</td>
               </tr>
             </tfoot>
             <tbody>
-              <tr>
+              <tr role="row">
                 <th scope="row">29th of First Seed</th>
-                <td>Cauis Cosades' Rooftop</td>
-                <td>Balmora</td>
+                <td role="gridcell">Cauis Cosades' Rooftop</td>
+                <td role="gridcell">Balmora</td>
               </tr>
-              <tr>
+              <tr role="row">
                 <th scope="row">3rd Rain's Hand</th>
-                <td>Above Skar</td>
-                <td>Ald'rhun</td>
+                <td role="gridcell">Above Skar</td>
+                <td role="gridcell">Ald'rhun</td>
               </tr>
-              <tr>
+              <tr role="row">
                 <th scope="row">5th of Rain's Hand</th>
-                <td>Ghorak Manor (Guest Appearance by Creeper)</td>
-                <td>Caldera</td>
+                <td role="gridcell">Ghorak Manor (Guest Appearance by Creeper)</td>
+                <td role="gridcell">Caldera</td>
               </tr>
-              <tr>
+              <tr role="row">
                 <th scope="row">6th of Rain's Hand</th>
-                <td>Ahnassi's Ampitheater</td>
-                <td>Pelegiad</td>
+                <td role="gridcell">Ahnassi's Ampitheater</td>
+                <td role="gridcell">Pelegiad</td>
               </tr>
-              <tr>
+              <tr role="row">
                 <th scope="row">8th of Rain's Hand</th>
-                <td>Ministry of Truth</td>
-                <td>Vivec</td>
+                <td role="gridcell">Ministry of Truth</td>
+                <td role="gridcell">Vivec</td>
               </tr>
-              <tr>
+              <tr role="row">
                 <th scope="row">22nd of Rain's Hand</th>
-                <td>House of Earthly Delights (18+)</td>
-                <td>Suran</td>
+                <td role="gridcell">House of Earthly Delights (18+)</td>
+                <td role="gridcell">Suran</td>
               </tr>
-              <tr>
+              <tr role="row">
                 <th scope="row">25th of Rain's Hand</th>
-                <td>Fargoth's Secret Treestump</td>
-                <td>Seyda Neen</td>
+                <td role="gridcell">Fargoth's Secret Treestump</td>
+                <td role="gridcell">Seyda Neen</td>
               </tr>
-              <tr>
+              <tr role="row">
                 <th scope="row">1st Second Seed</th>
-                <td>Fort Darius</td>
-                <td>Gnisis</td>
+                <td role="gridcell">Fort Darius</td>
+                <td role="gridcell">Gnisis</td>
               </tr>
-              <tr>
+              <tr role="row">
                 <th scope="row">4th of Second Seed</th>
-                <td>Assurnabitashpi (18+)</td>
-                <td>Urshilaku Camp</td>
+                <td role="gridcell">Assurnabitashpi (18+)</td>
+                <td role="gridcell">Urshilaku Camp</td>
               </tr>
-              <tr>
+              <tr role="row">
                 <th scope="row">7th of Second Seed</th>
-                <td>The End of the World</td>
-                <td>Dagon Fel</td>
+                <td role="gridcell">The End of the World</td>
+                <td role="gridcell">Dagon Fel</td>
               </tr>
-              <tr>
+              <tr role="row">
                 <th scope="row">8th of Second Seed</th>
-                <td>Vos Chapel</td>
-                <td>Vos</td>
+                <td role="gridcell">Vos Chapel</td>
+                <td role="gridcell">Vos</td>
               </tr>
-              <tr>
+              <tr role="row">
                 <th scope="row">12th of Second Seed</th>
-                <td>Tel Naga</td>
-                <td>Sadrith Mora</td>
+                <td role="gridcell">Tel Naga</td>
+                <td role="gridcell">Sadrith Mora</td>
               </tr>
-              <tr>
+              <tr role="row">
                 <th scope="row">20th of Second Seed</th>
-                <td>Corprusarium</td>
-                <td>Tel Fyr</td>
+                <td role="gridcell">Corprusarium</td>
+                <td role="gridcell">Tel Fyr</td>
               </tr>
-              <tr>
+              <tr role="row">
                 <th scope="row">28th of Second Seed</th>
-                <td>Tower Dungeon</td>
-                <td>Tel Branora</td>
+                <td role="gridcell">Tower Dungeon</td>
+                <td role="gridcell">Tel Branora</td>
               </tr>
-              <tr>
+              <tr role="row">
                 <th scope="row">3rd of Mid Year</th>
-                <td>Argonian Mission</td>
-                <td>Ebonheart</td>
+                <td role="gridcell">Argonian Mission</td>
+                <td role="gridcell">Ebonheart</td>
               </tr>
             </tbody>
           </table>
@@ -136,7 +136,7 @@
       </section>
     </main>
     
-      <footer class="main-footer">
+      <footer class="main-footer" role="contentinfo">
       <!-- thanks to David for the icons https://github.com/davidPSullivan -->
       <ul>
         <li><a href="#" class="social twitter"><span class="social-link-desc">Twitter</span><svg class="social-svg" viewBox="0 0 512 512"><path d="M419.6 168.6c-11.7 5.2-24.2 8.7-37.4 10.2 13.4-8.1 23.8-20.8 28.6-36 -12.6 7.5-26.5 12.9-41.3 15.8 -11.9-12.6-28.8-20.6-47.5-20.6 -42 0-72.9 39.2-63.4 79.9 -54.1-2.7-102.1-28.6-134.2-68 -17 29.2-8.8 67.5 20.1 86.9 -10.7-0.3-20.7-3.3-29.5-8.1 -0.7 30.2 20.9 58.4 52.2 64.6 -9.2 2.5-19.2 3.1-29.4 1.1 8.3 25.9 32.3 44.7 60.8 45.2 -27.4 21.4-61.8 31-96.4 27 28.8 18.5 63 29.2 99.8 29.2 120.8 0 189.1-102.1 185-193.6C399.9 193.1 410.9 181.7 419.6 168.6z"/></svg><!--[if lt IE 9]><em>Twitter</em><![endif]--></a>
