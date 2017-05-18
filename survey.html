@@ -28,7 +28,7 @@
       </section>
     </header>
 
-    <main>
+    <main role="main">
       
         <div class="flex">
 
@@ -49,22 +49,22 @@
 
                 <div class="radio-list">
 
-                  <input type="radio" id="crichton" name="res" value="John">
+                  <input type="radio" id="crichton" name="res" value="John" aria-required="false">
                     <label for="crichton" class="light">Crichton</label>
                     <br>
-                  <input type="radio" id="harvey" name="res" value="Hazzard">
+                  <input type="radio" id="harvey" name="res" value="Hazzard" aria-required="false">
                     <label for="harvey" class="light">Harvey</label>
                     <br> 
-                  <input type="radio" id="1812" name="res" value="Bob">
+                  <input type="radio" id="1812" name="res" value="Bob" aria-required="false">
                     <label for="1812" class="light">1812</label>
                     <br>
-                  <input type="radio" id="rygel" name="res" value="Sally">
+                  <input type="radio" id="rygel" name="res" value="Sally" aria-required="false">
                     <label for="rygel" class="light">Dominar Rygel XVI</label>
                     <br>
                 </div>
 
                 <label for="albums">What is your favorite album:</label>
-                <select id="albums" name="select">
+                <select id="albums" name="select" aria-required="false">
                   <option value="1">Chinanna Had the Draddest Time</option>
                   <option value="2">Crackers Don't Matter</option>
                   <option value="3">Dargo's Collar Bones Unchained</option>
@@ -79,7 +79,7 @@
                 </select>
 
                 <label for="fav-song">What is your favorite song:</label>
-                <textarea id="fav-song" name="user_song"></textarea>
+                <textarea id="fav-song" name="user_song" aria-required="false"></textarea>
 
               </fieldset>
 
@@ -88,15 +88,15 @@
                 <legend><span class="number">2</span>Newsletter</legend>
 
                 <label for="name">Name:</label>
-                <input type ="text" id="name" name="user_name">
+                <input type ="text" id="name" name="user_name" aria-required="true" required>
 
                 <label for="mail">Email:</label>
-                <input type ="email" id="mail" name="user_mail">
+                <input type ="email" id="mail" name="user_mail" aria-required="true" required>
 
                 <label for="confirm-mail">Confirm Email:</label>
-                <input type ="email" id="confirm-mail" name="user_confirm_mail">
+                <input type ="email" id="confirm-mail" name="user_confirm_mail" aria-required="true" required>
 
-                <button type="submit">Sign Up</button>
+                <button type="submit" role="button">Sign Up</button>
 
               </fieldset>
 
