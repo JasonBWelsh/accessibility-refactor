@@ -127,12 +127,12 @@ header .name{
 .tagline {
   font-size: 1rem;
   text-transform: lowercase;
-  font-weight: lighter;
+  /*font-weight: lighter;*/
   width: 90%;
   margin: 0 auto;
   color: #7FFFD4;
-  border-left: 1px solid #FF00FF;
-  border-right: 1px solid #FF00FF;
+/*  border-left: 1px solid #FF00FF;*/
+/*  border-right: 1px solid #FF00FF;*/
 }
 
 
