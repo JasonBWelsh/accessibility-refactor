@@ -109,6 +109,11 @@ button:focus {
   color: #FF00FF;
 }
 
+.button-description {
+  font-style: italic;
+  color: #F1F227;
+}
+
 fieldset {
   margin-bottom: 30px;
   border: none;
