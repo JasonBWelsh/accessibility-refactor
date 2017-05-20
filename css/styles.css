@@ -110,6 +110,8 @@ header .name{
 .main-heading,
 .tagline {
   letter-spacing: 1px;
+  background: rgba(0,0,0,.4);
+  border-radius: 5px;
 }
 
 .main-heading {
